@@ -1,0 +1,26 @@
+.menuitem{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.menuitem>img{
+    width: 15%;
+    height: 15%;
+}
+.menuitem>a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+.menuitem>a>a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.menuitem:hover{
+    background: rgb(181 218 252);
+    font-weight: 900;
+}

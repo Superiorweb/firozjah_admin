@@ -1,0 +1,54 @@
+.btnadd{
+    width: 15%;
+    background: #5f00b8;
+    color: white;
+}
+.btnadd:hover{
+    color: #c2feff;
+}
+.iconsearch{
+    width: 50%;
+}
+.iconremovexz{
+width: 10%;
+}
+select{
+    background: url("../icon/caret-down.png");
+    appearance: none;
+}
+.inputappend{
+    width: 25%;
+    padding-left: 1vw;
+    height: 38px;
+}
+.searchinput{
+    width: 50%;
+}
+.searchinput input{
+    height: 0;
+}
+.btnExcelcustomer{
+    width: 25%
+}
+.btnUndocustomer{
+    width: 18%;
+    background: #79afe3;
+    color: white;
+}
+@media only screen and (max-width: 1000px) {
+.iconsearch{
+    width: 100%;
+}
+    .btnadd{
+        width: 100%;
+    }
+    .inputappend{
+        width: 16%;
+    }
+    .searchinput{
+          width: 100%;
+    }
+    .btnExcelcustomer{
+        width: 100%;
+    }
+}

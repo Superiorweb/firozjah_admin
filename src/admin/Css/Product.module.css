@@ -1,0 +1,60 @@
+.iconremovelist {
+    width: 5%;
+}
+
+.badgebtn {
+    font-size: 1.4vw;
+}
+
+.sellslist {
+    border: 2px solid #2929298a;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.headertablelist {
+    background: #b5dafc;
+}
+
+.headertablelisttwo {
+    background: #90b4dd;
+}
+
+.tablesells {
+    border-radius: 10px;
+}
+
+.badgebtnexcal{
+    width: 20%;
+    padding: 0;
+    background: rgba(95,0,184,0) !important;
+}
+
+.inputdate {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #808080a1;
+    height: 4vh;
+}
+.datelable{
+    width: 25%;
+}
+.datelableB{
+    width: 50%;
+}
+@media only screen and (max-width: 1000px) {
+    .badgebtn {
+        font-size: 4vw;
+    }
+
+    .inputdate {
+        width: 100%;
+
+    }
+    .datelable{
+        width: 10rem;
+    }
+    .datelableB{
+        width: 10rem;
+    }
+}

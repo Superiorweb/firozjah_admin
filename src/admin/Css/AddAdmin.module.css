@@ -1,0 +1,72 @@
+.list_menu_setting {
+    border: 2px solid #b5dafc;
+}
+
+.list_menu_setting > li {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    cursor: pointer;
+}
+
+.list_menu_setting > li:hover {
+    background: #b5dafc;
+}
+.titr{
+    font-size: 15px;
+    text-align: center;
+}
+
+.cardsetting {
+    border: 2px solid #b5dafc;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.cardtitle {
+    background: #b5dafc;
+}
+
+.titr {
+    position: relative;
+    top: -3vh;
+    background: white;
+    width: 17%;
+}
+
+.areaaddress {
+    height: 18vh;
+    width: 75%;
+}
+
+.chenckboxing > label > input {
+    border-radius: 10px;
+}
+
+.lablesform{
+width: 7rem;
+}
+
+.headerul{
+    list-style: none;
+    z-index: 500;
+    width: 100%;
+}
+.headerul>li{
+    padding: 4vw;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.headerul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .titr {
+        width: 60%;
+    }
+}

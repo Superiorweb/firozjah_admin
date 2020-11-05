@@ -1,0 +1,28 @@
+.headertitle{
+    background: white;
+    border-radius: 0px 40px 0px 40px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.priceCart{
+    color: #8db440;
+    font-size: 20px;
+}
+.LastpriceCart{
+    color: #e05353;
+    font-size: 17px;
+}
+.card{
+    border-radius: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    .headertitle{
+        width: 100%;
+        text-align: center;
+    }
+    .search{
+        width: 85%;
+    }
+}

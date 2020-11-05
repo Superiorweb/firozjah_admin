@@ -1,0 +1,7 @@
+@font-face {
+    src: url("../../admin/Css/fontir/eot/IRANSansWeb.eot");
+    font-family: IRANSANS;
+}
+*{
+    font-family: IRANSANS;
+}

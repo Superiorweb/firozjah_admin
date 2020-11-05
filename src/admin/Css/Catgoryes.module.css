@@ -1,0 +1,86 @@
+select option {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: right;
+}
+.lablenameitem{
+    width: 8%;
+}
+.additem{
+    width: 15%;
+}
+.btnadditem{
+    background: #4500c1;
+    color: white;
+}
+.icontable{
+    width: 40%;
+    margin: 0.5vw;
+}
+.iconsorts{
+    width: 13%;
+    cursor: move;
+}
+.refreshbtn{
+background: #b5dafc;
+    border-radius: 20px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 12px;
+}
+.refreshicon{
+    width: 15%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.refreshbtn:hover{
+    background: #cfe8ff;
+}
+.tdrefrsh{
+width: 15%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .lablenameitem{
+        width: 20%;
+    }
+    .additem{
+        width: 25%;
+        margin-top: 5vh;
+    }
+    .icontable{
+        width: 2rem;
+        margin: 0.5vw;
+    }
+    .lablecatgory{
+           width: 10rem;
+    }
+    .iconsorts{
+        width: 100%;
+    }
+    .tdrefrsh{
+width: 30%;
+    }
+    .refreshicon{
+        width: 35%;
+    }
+    .inpcatgory{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+    .lablecatgory{
+        width: 6rem;
+    }
+    .refreshicon{
+        width: 45%;
+    }
+    .addcatgoryinp{
+        width: 100% !important;
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+    }
+
+
+}

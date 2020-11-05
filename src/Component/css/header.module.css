@@ -1,0 +1,91 @@
+.hrtop{
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    background: #cacaca;
+    height: 3vh !important;
+    z-index: 1;
+    position: relative;
+}
+.search{
+    background: url("../images/searchicon.png") no-repeat;
+    background-position: 4%;
+    background-color: white;
+    background-size: 4%;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+    padding: 10px;
+    width: 50%;
+}
+.carticon{
+    width: 15%;
+}
+.lenghtcart{
+    width: 2vw;
+    height: 2vw;
+    background: #ed1c24;
+    content: "1";
+    z-index: 1;
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    left: 4px;
+    text-align: center;
+}
+.lenghtcarts{
+    background: url("../images/cart.png") no-repeat;
+    background-size: contain;
+    width: 3.5vw;
+    height: 3.5vw;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.headertop{
+    position: relative;
+    background: rgb(242, 242, 242);
+    box-shadow: 0 4px 5px -6px black;
+    z-index: 10;
+}
+.menurow{
+    background: rgb(242, 242, 242);
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu>ul{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.menu>ul>li{
+font-size: 1.3vw;
+}
+.menu>ul>li>a{
+    color: black;
+}
+.menu>ul>li:hover{
+    background: #e4e4e4;
+    border-radius: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .menu>ul>li{
+        font-size: 3.3vw;
+    }
+    .lenghtcarts{
+        width: 10.5vw;
+        height: 9.5vw;
+    }
+    .lenghtcart{
+        width: 5vw;
+        height: 6vw;
+    }
+}

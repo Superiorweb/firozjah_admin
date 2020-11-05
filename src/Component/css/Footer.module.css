@@ -1,0 +1,36 @@
+.footerUi{
+   list-style: none;
+}
+.footerUi>li{
+    font-size: 1vw;
+}
+.footerUi>li:nth-child(1){
+    font-size: 1.4vw;
+    border-bottom: 5px solid white;
+    font-weight: bolder;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    padding-bottom: 2px;
+}
+.footeralert>p{
+    font-size: 1.3vw;
+
+}
+.footeralert{
+    box-shadow: 0 3px 10px -5px black;
+    position: relative;
+}
+.footeralerttwo{
+    font-size: 0.8vw;
+}
+@media only screen and (max-width: 1000px) {
+    .footerUi>li{
+        font-size: 3.4vw;
+    }
+    .footerUi>li:nth-child(1){
+        font-size: 4vw;
+    }
+    .footeralert>p{
+        font-size: 2.7vw;
+    }
+}
