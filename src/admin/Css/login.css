@@ -1,0 +1,31 @@
+.cardforlogin{
+    background: #001048;
+    width: 35%;
+    padding: 2%;
+    padding-top: 3%;
+    margin-top: 23vh;
+    border-radius: 30px;
+}
+.cardforlogin>input ,button{
+    width: 100%;
+    display: block;
+    margin-top: 2vh;
+}
+.cardforlogin>input{
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #293579;
+    padding: 2%;
+    outline: none !important;
+    color: white;
+}
+.cardforlogin>input::placeholder{
+color: #9ba6dd;
+    font-size: 1.2vw;
+}
+.cardforlogin>button , .btnpasslog{
+    border-radius: 50px;
+    background: #3a5fff;
+    font-weight: bolder;
+    font-size: 1.2vw;
+}

@@ -12,7 +12,8 @@ import {
 } from 'recharts';
 import Dashboard from "../Dashboard/Dashboard";
 import {Helmet} from "react-helmet";
-
+import kalahayfrokh from '../icon/kalahaye forokhte shode.png'
+import user from '../icon/manager.png'
 
 export default class Index extends Component {
     render() {
@@ -80,7 +81,7 @@ export default class Index extends Component {
                                     </h5>
                                     <div className="row mt-4">
                                         <div className="col-6 text-center">
-                                            <img className="w-50" src={management} alt=""/>
+                                            <img className="w-50" src={user} alt=""/>
                                         </div>
                                         <div className={csi.countcard + " col-6 text-center d-flex align-items-center"}>
                                             546
@@ -148,7 +149,7 @@ export default class Index extends Component {
                                     </h5>
                                     <div className="row mt-4">
                                         <div className="col-6 text-center">
-                                            <img className="w-50" src={cartshopping} alt=""/>
+                                            <img className="w-50" src={kalahayfrokh} alt=""/>
                                         </div>
                                         <div className={csi.countcard + " col-6 text-center d-flex align-items-center"}>
                                             546

@@ -3,12 +3,18 @@ import csd from "../Css/Dashboard.module.css"
 import dashboardimg from '../icon/shop.png'
 
 // ایکون ها
+import pishkhan from '../icon/pishkhan.png'
+import setting from '../icon/setting.png'
+import kalahayfrokh from '../icon/kalahaye forokhte shode.png'
 import addamin from '../icon/manager.png'
 import admin from '../icon/management.png'
 import user from '../icon/manager.png'
 import customer from '../icon/customer.png'
 import tamin from '../icon/shop.png'
 import menu from '../icon/add.png'
+import adds from '../icon/add (1).png'
+import trakonesh from '../icon/tarakonesh.png'
+import profiles from '../icon/virayeshe profile.png'
 import products from '../icon/product.png'
 import shop from '../icon/shopping-cart.png'
 import rejected from '../icon/rejected.png'
@@ -63,7 +69,7 @@ export default class Dashboard extends Component {
             <hr className="m-0 mb-3" />
             <NavLink to="/adminpanel" activeClassName="activemenu">
             <div className={csd.menuitem + " menuitemsright"}>
-                <img src={dashboardimg} alt=""/>
+                <img src={pishkhan} alt=""/>
                 <a className="w-75 pr-3 pl-2">
                         پیشخوان
                 </a>
@@ -71,7 +77,7 @@ export default class Dashboard extends Component {
             </NavLink>
             <NavLink to="/firojahadmin/setting" activeClassName="activemenu">
             <div className={csd.menuitem + " menuitemsright"}>
-                <img src={dashboardimg} alt=""/>
+                <img src={setting} alt=""/>
                 <a className="w-75 pr-3 pl-2">
 
                         تنظیمات
@@ -121,7 +127,7 @@ export default class Dashboard extends Component {
             </NavLink>
             <NavLink to="/firojahadmin/Suppliers" activeClassName="activemenu">
             <div className={csd.menuitem + " menuitemsright"}>
-                <img src={customer} alt=""/>
+                <img src={shop} alt=""/>
                 <a className="w-75 pr-3 pl-2">
 
                     تأمین‌کنندگان
@@ -132,7 +138,7 @@ export default class Dashboard extends Component {
             </NavLink>
             <NavLink to="/firojahadmin/Catgoryes" activeClassName="activemenu">
             <div className={csd.menuitem + " menuitemsright"}>
-                <img src={customer} alt=""/>
+                <img src={adds} alt=""/>
                 <a className="w-75 pr-3 pl-2">
 
                     دسته‌بندی‌ها
@@ -172,7 +178,7 @@ export default class Dashboard extends Component {
             </NavLink>
             <NavLink to="/firojahadmin/Sells" activeClassName="activemenu">
             <div className={csd.menuitem + " menuitemsright"}>
-                <img src={shop} alt=""/>
+                <img src={kalahayfrokh} alt=""/>
                 <a className="w-75 pr-3 pl-2">
 
                     کالاھای فروخته شده
@@ -195,7 +201,7 @@ export default class Dashboard extends Component {
 
             <NavLink to="/firojahadmin/Daryafti" activeClassName="activemenu">
             <div className={csd.menuitem + " menuitemsright"}>
-                <img src={customer} alt=""/>
+                <img src={trakonesh} alt=""/>
                 <a className="w-75 pr-3 pl-2">
 
                         تراکنش مالی
@@ -245,7 +251,7 @@ export default class Dashboard extends Component {
             </NavLink>
             <NavLink to="/firojahadmin/UserSetting" activeClassName="activemenu">
                 <div className={csd.menuitem + " menuitemsright"}>
-                    <img src={support} alt=""/>
+                    <img src={profiles} alt=""/>
                     <a className="w-75 pr-3 pl-2">
 
                         ویرایش پروفایل

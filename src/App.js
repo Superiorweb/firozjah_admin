@@ -37,6 +37,9 @@ import Success from "./admin/products/success";
 import Failed from "./admin/products/failed";
 import History from "./admin/Customer/History";
 import IndexBase from "./Component/index";
+import Register from "./admin/Login/register";
+import Login from "./admin/Login/login";
+import Registerpassword from "./admin/Login/registerpassword";
 
 function App() {
     return (
@@ -154,10 +157,17 @@ function App() {
                     <Tickets/>
                 </Route>
 
-                {/*<Route path="/">*/}
-                {/*    <IndexBase/>*/}
-                {/*</Route>*/}
+                <Route path="/firojahadmin/login">
+                    <Login/>
+                </Route>
 
+                <Route path="/firojahadmin/Register">
+                    <Register/>
+                </Route>
+
+                <Route path="/firojahadmin/Registerpass">
+                    <Registerpassword/>
+                </Route>
             </Switch>
 
 
