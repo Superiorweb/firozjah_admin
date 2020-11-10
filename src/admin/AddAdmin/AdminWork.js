@@ -1,10 +1,16 @@
 import React, {Component} from 'react';
 import csS from "../Css/AddAdmin.module.css";
+import csSC from "../Css/Catgoryes.module.css";
 import exel from '../icon/excel.png'
 import cspa from "../Css/Page.module.css";
 import search from "../icon/loupe.png";
 import Dashboard from "../Dashboard/Dashboard";
 import {Helmet} from "react-helmet";
+import refresh from "../icon/refresh.png";
+import eye from "../icon/eye.png";
+import cart from "../icon/shopping-cart.png";
+import {NavLink} from "react-router-dom";
+
 
 export default class AdminWork extends Component {
     render() {
@@ -105,7 +111,6 @@ export default class AdminWork extends Component {
                                     <th scope="col">ثبت‌کننده</th>
                                     <th scope="col">عملیات</th>
                                     <th scope="col"> وضعیت</th>
-                                    <th scope="col">نام کاربری</th>
                                     <th scope="col">سطح دسترسی</th>
                                     <th scope="col">نام و نام خانوادگی</th>
                                     <th scope="col">نام پدر</th>
@@ -120,7 +125,8 @@ export default class AdminWork extends Component {
                                     <th scope="col">رشته تحصیلی</th>
                                     <th scope="col">ادرس</th>
                                     <th scope="col">کدپستی</th>
-                                    <th scope="col">رمز عبور</th>
+                                    <th scope="col">تاریخ ثبت</th>
+
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -128,67 +134,100 @@ export default class AdminWork extends Component {
                                     <th scope="row">1</th>
                                     <td>متن نمونه</td>
                                     <td>متن نمونه</td>
-                                    <td>09905611987</td>
-                                    <td>متن نمونه</td>
-                                    <td>1399/8/6</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
+                                    <td className={csSC.tdrefrsh }>
+                                        <a className={csSC.refreshbtn+" btn d-lg-flex btnrefresh"}>
+                                            <img src={refresh} alt="" className={csSC.refreshicon}/>
+                                            بررسی مجدد
+                                        </a>
+                                    </td>
+                                    <td style={{width:"10%"}}>
+                                        <NavLink to="/firojahadmin/addadmin">
+                                        <a className="d-flex w-100 justify-content-center">
+                                            <img src={eye} alt="" className="w-50"/>
+                                        </a>
+                                        </NavLink>
+                                    </td>
                                     <td>متن نمونه</td>
                                     <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+
                                 </tr>
                                 <tr>
                                     <th scope="row">1</th>
                                     <td>متن نمونه</td>
                                     <td>متن نمونه</td>
-                                    <td>09905611987</td>
-                                    <td>متن نمونه</td>
-                                    <td>1399/8/6</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
+                                    <td className={csSC.tdrefrsh }>
+                                        <a className={csSC.refreshbtn+" btn d-lg-flex btnrefresh"}>
+                                            <img src={refresh} alt="" className={csSC.refreshicon}/>
+                                            بررسی مجدد
+                                        </a>
+                                    </td>
+                                    <td style={{width:"10%"}}>
+                                        <NavLink to="/firojahadmin/addadmin">
+                                            <a className="d-flex w-100 justify-content-center">
+                                                <img src={eye} alt="" className="w-50"/>
+                                            </a>
+                                        </NavLink>
+                                    </td>
                                     <td>متن نمونه</td>
                                     <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+
                                 </tr>
                                 <tr>
                                     <th scope="row">1</th>
                                     <td>متن نمونه</td>
                                     <td>متن نمونه</td>
-                                    <td>09905611987</td>
-                                    <td>متن نمونه</td>
-                                    <td>1399/8/6</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
-                                    <td>متن نمونه</td>
+                                    <td className={csSC.tdrefrsh }>
+                                        <a className={csSC.refreshbtn+" btn d-lg-flex btnrefresh"}>
+                                            <img src={refresh} alt="" className={csSC.refreshicon}/>
+                                            بررسی مجدد
+                                        </a>
+                                    </td>
+                                    <td style={{width:"10%"}}>
+                                        <NavLink to="/firojahadmin/addadmin">
+                                            <a className="d-flex w-100 justify-content-center">
+                                                <img src={eye} alt="" className="w-50"/>
+                                            </a>
+                                        </NavLink>
+                                    </td>
                                     <td>متن نمونه</td>
                                     <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+                                    <td>متن نمونه</td>
+
                                 </tr>
                                 </tbody>
                             </table>

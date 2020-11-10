@@ -86,9 +86,11 @@ export default class Customer extends Component {
                                     <td className="text-center">54165</td>
                                     <td className="text-center">09905611987</td>
                                     <td style={{width:"10%"}}>
-                                        <a className="d-flex w-100 justify-content-center">
-                                            <img src={contract} alt="" className="w-25"/>
-                                        </a>
+                                        <NavLink to="/firojahadmin/customeSetting">
+                                            <a className="d-flex w-100 justify-content-center">
+                                                <img src={contract} alt="" className="w-25"/>
+                                            </a>
+                                        </NavLink>
                                     </td>
                                     <td style={{width:"10%"}}>
                                         <a className="d-flex w-100 justify-content-center">
@@ -105,9 +107,11 @@ export default class Customer extends Component {
                                     <td className="text-center">54165</td>
                                     <td className="text-center">09905611987</td>
                                     <td style={{width:"10%"}}>
-                                        <a className="d-flex w-100 justify-content-center">
-                                            <img src={contract} alt="" className="w-25"/>
-                                        </a>
+                                        <NavLink to="/firojahadmin/customeSetting">
+                                            <a className="d-flex w-100 justify-content-center">
+                                                <img src={contract} alt="" className="w-25"/>
+                                            </a>
+                                        </NavLink>
                                     </td>
                                     <td style={{width:"10%"}}>
                                         <a className="d-flex w-100 justify-content-center">
@@ -124,7 +128,7 @@ export default class Customer extends Component {
                                     <td className="text-center">54165</td>
                                     <td className="text-center">09905611987</td>
                                     <td style={{width:"10%"}}>
-                                        <NavLink to="/firojahadmin/UserSetting">
+                                        <NavLink to="/firojahadmin/customeSetting">
                                         <a className="d-flex w-100 justify-content-center">
                                             <img src={contract} alt="" className="w-25"/>
                                         </a>

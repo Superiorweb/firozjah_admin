@@ -67,7 +67,7 @@ export default class Setting extends Component {
                                                            id="inlineFormInputGroup" placeholder=" "/>
                                                     <div className="input-group-prepend">
 
-                                                        <button className="btn btn-success">انتخاب کنید</button>
+                                                        <button className="btn btn-success m-0">انتخاب کنید</button>
 
                                                     </div>
                                                 </div>
@@ -91,7 +91,7 @@ export default class Setting extends Component {
                                                            id="inlineFormInputGroup" placeholder=" "/>
                                                     <div className="input-group-prepend">
 
-                                                        <button className="btn btn-success">انتخاب کنید</button>
+                                                        <button className="btn btn-success m-0">انتخاب کنید</button>
 
                                                     </div>
                                                 </div>
@@ -115,7 +115,7 @@ export default class Setting extends Component {
                                                            id="inlineFormInputGroup" placeholder=" "/>
                                                     <div className="input-group-prepend">
 
-                                                        <button className="btn btn-success">انتخاب کنید</button>
+                                                        <button className="btn btn-success m-0">انتخاب کنید</button>
 
                                                     </div>
                                                 </div>

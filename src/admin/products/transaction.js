@@ -72,7 +72,7 @@ export default class Transaction extends Component {
                                 </div>
                                 <div className="col-md-3 col-sm-6 col-12 mt-4 m-md-0">
                                     <button className="btn w-100 font-weight-bolder btn-outline-primary d-flex justify-content-between align-items-center">
-                                        خروجی اکسل دریافتی
+                                        خروجی دریافتی
                                         <span  className={csp.badgebtn+" "+csp.badgebtnexcal+" badge text-dark mx-2 bg-light"}>
                            <a className="w-25">
                            <img className="w-100" src={excel}/>
@@ -82,7 +82,7 @@ export default class Transaction extends Component {
                                 </div>
                                 <div className="col-md-3 col-sm-6 col-12 mt-4 m-md-0">
                                     <button className="btn w-100 font-weight-bolder btn-outline-primary d-flex justify-content-between align-items-center">
-                                        خروجی اکسل واریزی
+                                        خروجی واریزی
                                         <span  className={csp.badgebtn+" "+csp.badgebtnexcal+" badge text-dark mx-2 bg-light"}>
                            <a className="w-25">
                            <img className="w-100" src={excel}/>

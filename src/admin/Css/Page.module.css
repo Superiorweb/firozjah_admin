@@ -21,6 +21,9 @@ select{
     padding-left: 1vw;
     height: 38px;
 }
+.inputappend>button{
+    margin: 0;
+}
 .searchinput{
     width: 50%;
 }

@@ -40,6 +40,8 @@ import IndexBase from "./Component/index";
 import Register from "./admin/Login/register";
 import Login from "./admin/Login/login";
 import Registerpassword from "./admin/Login/registerpassword";
+import AdminSetting from "./admin/AddAdmin/AdminSetting";
+import Subpplliersetting from "./admin/AddAdmin/Subpplliersetting";
 
 function App() {
     return (
@@ -139,6 +141,14 @@ function App() {
 
                 <Route path="/firojahadmin/UserSetting">
                     <UserSetting/>
+                </Route>
+
+                <Route path="/firojahadmin/customeSetting">
+                    <AdminSetting/>
+                </Route>
+
+                <Route path="/firojahadmin/Subssting">
+                    <Subpplliersetting/>
                 </Route>
 
                 <Route path="/firojahadmin/Subcategory">

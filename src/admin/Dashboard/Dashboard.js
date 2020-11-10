@@ -16,7 +16,7 @@ import adds from '../icon/add (1).png'
 import trakonesh from '../icon/tarakonesh.png'
 import profiles from '../icon/virayeshe profile.png'
 import products from '../icon/product.png'
-import shop from '../icon/shopping-cart.png'
+import shop from '../icon/shop.png'
 import rejected from '../icon/rejected.png'
 import connectus from '../icon/information.png'
 import camera from '../icon/camera.png'
@@ -26,6 +26,8 @@ import database from '../icon/backup.png'
 import footer from '../icon/footer.png'
 import seeweb from '../icon/web-search-engine.png'
 import support from '../icon/customer-service.png'
+import help from '../icon/help.png'
+import productadd from '../icon/add-product.png'
 import logo from '../image/logo-1.gif'
 
 import '../Css/global.css'
@@ -66,7 +68,7 @@ export default class Dashboard extends Component {
     <Header/>
     <div className="row mr-0 ml-0">
         <div className="col-md-2 px-0 col d-md-block d-none">
-            <hr className="m-0 mb-3" />
+            <hr className="m-0" />
             <NavLink to="/adminpanel" activeClassName="activemenu">
             <div className={csd.menuitem + " menuitemsright"}>
                 <img src={pishkhan} alt=""/>
@@ -168,7 +170,7 @@ export default class Dashboard extends Component {
             </NavLink>
             <NavLink to="/firojahadmin/AddProduct" activeClassName="activemenu">
             <div className={csd.menuitem + " menuitemsright"}>
-                <img src={customer} alt=""/>
+                <img src={productadd} alt=""/>
                 <a className="w-75 pr-3 pl-2">
 
                         افزودن محصول
@@ -241,7 +243,7 @@ export default class Dashboard extends Component {
             </NavLink>
             <NavLink to="/firojahadmin/Questions" activeClassName="activemenu">
             <div className={csd.menuitem + " menuitemsright"}>
-                <img src={customer} alt=""/>
+                <img src={help} alt=""/>
                 <a className="w-75 pr-3 pl-2">
 
                      سوالات متداول

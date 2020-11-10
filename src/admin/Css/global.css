@@ -56,7 +56,7 @@ input{
     width: 100%;
 }
 .logout>img{
-    width: 3%;
+    width: 2%;
 }
 .logout{
     color: red;
@@ -129,6 +129,11 @@ select{
     margin: .5rem;
     margin-left: 2.1rem;
 }
+
+.adrpf{
+    height: 14vh !important
+}
+
 @media only screen and (max-width: 1260px) {
     .btnrefresh{
         font-size: 10px !important;

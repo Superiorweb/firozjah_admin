@@ -50,7 +50,7 @@ export default class AddAdmin extends Component {
                     <div className="row mb-4 g-3">
                         <div className="col-lg-6 col-12 justify-content-lg-evenly justify-content-center d-flex align-items-center">
                             <label className={csS.lablesform+" m-2"}>
-                                نام کاربری
+                                نام و نام خانوادگی
                             </label>
                             <input type="text" className="form-control w-75" placeholder=" "
                                    aria-label="Last name"/>
@@ -167,18 +167,12 @@ export default class AddAdmin extends Component {
 
                             <div className="d-flex align-items-center w-100 mt-4 mt-lg-0">
                                 <label className={csS.lablesform+"  mx-2 my-3"}>
-                                    نام کاربری
+                                 اپلود مدارک
                                 </label>
-                                <input type="text" className="form-control w-75" placeholder=" "
+                                <input type="file" className="form-control w-75" placeholder=" "
                                        aria-label="Last name"/>
                             </div>
-                            <div className="d-flex align-items-center w-100 mt-4 mt-lg-0">
-                                <label className={csS.lablesform+" mx-2 my-3"}>
-                                   رمز عبور
-                                </label>
-                                <input type="text" className="form-control w-75" placeholder=" "
-                                       aria-label="Last name"/>
-                            </div>
+
 
                         </div>
 

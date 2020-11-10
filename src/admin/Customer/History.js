@@ -8,6 +8,7 @@ import search from "../icon/loupe.png";
 import Dashboard from "../Dashboard/Dashboard";
 import {Helmet} from "react-helmet";
 import {NavLink} from "react-router-dom";
+import eye from "../icon/eye.png";
 
 export default class History extends Component {
     render() {
@@ -61,14 +62,21 @@ export default class History extends Component {
                                     <tr>
                                         <th scope="col">ردیف</th>
                                         <th scope="col">تاریخ اعمال تغییرات</th>
-                                        <th scope="col">نام تأمين‌کننده</th>
-                                        <th scope="col">نام خانوادگی تأمين‌کننده</th>
+                                        <th scope="col">نام فروشنده</th>
+                                        <th scope="col">نام خانوادگی فروشنده</th>
                                         <th scope="col">نام پدر</th>
                                         <th scope="col">تاریخ تولد</th>
                                         <th scope="col">کد ملی</th>
                                         <th scope="col">شماره شناسنامه</th>
                                         <th scope="col">شماره همراه</th>
                                         <th scope="col">شماره ثابت</th>
+                                        <th scope="col">پست الکترونیکی</th>
+                                        <th scope="col">شماره حساب</th>
+                                        <th scope="col">استان</th>
+                                        <th scope="col">شهر</th>
+                                        <th scope="col">ادرس</th>
+                                        <th scope="col">کدپستی</th>
+                                        <th scope="col">مشاهده</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -83,6 +91,15 @@ export default class History extends Component {
                                         <td className="text-center">09905611987</td>
                                         <td className="text-center">09905611987</td>
                                         <td className="text-center">09905611987</td>
+                                        <td className="text-left">WWW.EXM.COM</td>
+                                        <td className="text-center">546456</td>
+                                        <td>متن نمونه</td>
+                                        <td>متن نمونه</td>
+                                        <td>متن نمونه</td>
+                                        <td className="text-center">546456</td>
+                                        <td className="p-3" style={{width: "7%"}}>
+                                            <img className="w-100" src={eye} alt=""/>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">1</th>
@@ -95,6 +112,15 @@ export default class History extends Component {
                                         <td className="text-center">09905611987</td>
                                         <td className="text-center">09905611987</td>
                                         <td className="text-center">09905611987</td>
+                                        <td className="text-left">WWW.EXM.COM</td>
+                                        <td className="text-center">546456</td>
+                                        <td>متن نمونه</td>
+                                        <td>متن نمونه</td>
+                                        <td>متن نمونه</td>
+                                        <td className="text-center">546456</td>
+                                        <td className="p-3" style={{width: "7%"}}>
+                                            <img className="w-100" src={eye} alt=""/>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">1</th>
@@ -107,6 +133,15 @@ export default class History extends Component {
                                         <td className="text-center">09905611987</td>
                                         <td className="text-center">09905611987</td>
                                         <td className="text-center">09905611987</td>
+                                        <td className="text-left">WWW.EXM.COM</td>
+                                        <td className="text-center">546456</td>
+                                        <td>متن نمونه</td>
+                                        <td>متن نمونه</td>
+                                        <td>متن نمونه</td>
+                                        <td className="text-center">546456</td>
+                                        <td className="p-3" style={{width: "7%"}}>
+                                            <img className="w-100" src={eye} alt=""/>
+                                        </td>
                                     </tr>
                                     </tbody>
                                 </table>

@@ -132,9 +132,13 @@ export default class Suppliers extends Component {
                                         </a>
                                     </td>
                                     <td style={{width:"10%"}}>
+                                        <NavLink to="Subssting">
+
                                         <a className="w-100 d-flex justify-content-center align-items-center">
                                             <img src={user} className="w-50"/>
                                         </a>
+
+                                        </NavLink>
                                     </td>
                                     <td style={{width:"10%"}}>
                                         <NavLink  activeClassName="activecat" to="/firojahadmin/History">
@@ -159,9 +163,13 @@ export default class Suppliers extends Component {
                                         </a>
                                     </td>
                                     <td style={{width:"10%"}}>
-                                        <a className="w-100 d-flex justify-content-center align-items-center">
-                                            <img src={user} className="w-50"/>
-                                        </a>
+                                        <NavLink to="Subssting">
+
+                                            <a className="w-100 d-flex justify-content-center align-items-center">
+                                                <img src={user} className="w-50"/>
+                                            </a>
+
+                                        </NavLink>
                                     </td>
                                     <td style={{width:"10%"}}>
                                         <NavLink  activeClassName="activecat" to="/firojahadmin/History">
@@ -186,9 +194,13 @@ export default class Suppliers extends Component {
                                         </a>
                                     </td>
                                     <td style={{width:"10%"}}>
-                                        <a className="w-100 d-flex justify-content-center align-items-center">
-                                            <img src={user} className="w-50"/>
-                                        </a>
+                                        <NavLink to="Subssting">
+
+                                            <a className="w-100 d-flex justify-content-center align-items-center">
+                                                <img src={user} className="w-50"/>
+                                            </a>
+
+                                        </NavLink>
                                     </td>
                                     <td style={{width:"10%"}}>
                                         <NavLink  activeClassName="activecat" to="/firojahadmin/History">
